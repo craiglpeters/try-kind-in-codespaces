@@ -4,10 +4,6 @@ This repo allows you to quickly spin up an environment in [GitHub Codespaces](ht
 
 To get started [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=551578719) and then open the `try-kind.md` file in the explorer.
 
-# Learning a bit about Kubernetes through kind and kubectl (which are pre-installed on this environment)
-
-To get started [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=551578719) and then open the `try-kind.md` file in the explorer.
-
 ## Starting and connecting with the cluster
 
 Start with creating a cluster
