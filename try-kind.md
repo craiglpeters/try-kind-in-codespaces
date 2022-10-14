@@ -1,0 +1,43 @@
+# Learning a bit about kind
+
+## Starting and connecting with the cluster
+
+Start with `kind create cluster`
+
+```bash
+kubectl cluster-info
+```
+
+```bash
+kubectl get nodes
+```
+
+## Now let's deploy a very simple app
+
+```bash
+kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
+```
+
+```bash
+kubectl get deployments
+```
+
+```bash
+export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+```
+
+```bash
+echo Name of the Pod: $POD_NAME
+```
+
+## Let's learn about pods
+
+```bash
+kubectl get pods
+```
+
+```bash
+kubectl describe pods
+```
+
+If you've got some work here you want to save, go to github.com/codespaces, find this codespace, click the `...` and `Publish to repo`

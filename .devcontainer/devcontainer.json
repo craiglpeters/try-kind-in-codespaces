@@ -32,5 +32,12 @@
 		},
 		"./kubectl-kind": "0.16"
 	},
-	"postCreateCommand": "git config codespaces-theme.hide-status 1"
+	"postCreateCommand": "git config codespaces-theme.hide-status 1",
+	"customizations": {
+        "codespaces": {
+            "openFiles": [
+                "try-kind.md"
+            ]
+        }
+    }	
 }
