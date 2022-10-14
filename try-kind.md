@@ -1,4 +1,4 @@
-# Learning a bit about kind
+# Learning a bit about Kubernetes through kind and kubectl (which are pre-installed on this environment)
 
 ## Starting and connecting with the cluster
 
