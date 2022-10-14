@@ -12,6 +12,7 @@ Inspect the basic info about the cluster
 kubectl cluster-info
 ```
 
+Find out about the node that makes up the cluster
 ```bash
 kubectl get nodes
 ```
