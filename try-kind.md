@@ -2,8 +2,12 @@
 
 ## Starting and connecting with the cluster
 
-Start with `kind create cluster`
+Start with creating a cluster
+```bash
+kind create cluster
+```
 
+Inspect the basic info about the cluster
 ```bash
 kubectl cluster-info
 ```
