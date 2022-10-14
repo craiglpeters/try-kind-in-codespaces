@@ -28,7 +28,7 @@
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers/features/go:1": {
-			"version": "1.18"
+			"version": "1.19"
 		},
 		"./kubectl-kind": "0.16"
 	},
