@@ -1,0 +1,16 @@
+{
+    "name": "kubectl-kind",
+    "id": "kubectl-kind",
+    "version": "0.16",
+    "description": "Install kubectl and kind on Linux",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "0.16"
+            ],
+            "default": "0.16",
+            "description": "Choose the version of kind."
+        }
+    }
+}

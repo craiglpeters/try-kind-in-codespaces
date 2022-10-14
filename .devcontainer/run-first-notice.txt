@@ -1,0 +1,6 @@
+👋 Welcome to Kind on Codespaces! You are on the base Debian image with go, kubectl, and kind instlled. 
+   - You can learn more about this repo at https://github.com/craiglpeters/simple-kind-template
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P or F1).
+
+📝 Edit away, run kind and kubectl, and raise issues in the repo if you find any problems.
