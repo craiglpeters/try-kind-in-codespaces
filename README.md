@@ -8,3 +8,5 @@ To take a look under the covers:
  - [Codespaces configuration docs](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)
  - open source [dev container specification](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)
  - Take a look at the `.devcontainer` folder of this repository
+
+ > Note: [Codespaces port forwarding](https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace) has a known limitation, so `kubectl proxy` allows connecting to the kubernetes API, but not to services exposed by pods. The workaround is to use `kubectl port-forward`.
